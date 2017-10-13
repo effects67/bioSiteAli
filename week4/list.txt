@@ -1,7 +1,0 @@
-ul { 
-    display: block;
-    margin: 1em;
-    padding-left: 40px;
-}
-
-// padding left, images on right
