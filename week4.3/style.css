@@ -12,6 +12,12 @@ h1.header{
 font-size: 2.5em;
 }
 
+h2.goals{
+    float:right;
+        padding-right: 100px;
+    
+}
+
 a.header{
     text-decoration:none;
 }
@@ -23,25 +29,34 @@ a.header{
 
 
 
-/* heading, need to fix justify tag */
-div.header {
-    border: 1px solid black;
-    padding: 10px;
-    width: 700px;
-    height: 50px;
-    text-align:justify;
-}
 
+div.header {
+    float: center;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
 div.bio{
-padding:15px;
 border: 10px darkgrey groove;
-align-self: left;
+    width:400px;
+    height:200px;
+    padding-left: 30px;
     
 }
 
 div.goals{
-    padding:5px;
-    border: 1px solid black;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    border: 3px solid #f0f8ff;
+    height: 150px;
+    width: 200px;
+    align-items: center;
+    margin:auto;
+    
 }
 
 
